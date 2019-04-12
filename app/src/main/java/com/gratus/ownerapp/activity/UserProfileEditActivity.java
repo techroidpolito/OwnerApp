@@ -14,15 +14,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
-import com.gratus.ownerapp.Fragment.BottomSheetFragment;
+import com.gratus.ownerapp.fragment.BottomSheetFragment;
 import com.gratus.ownerapp.R;
 import com.gratus.ownerapp.model.UserProfileRegistrationModel;
 import com.gratus.ownerapp.util.CameraInterface;
-import com.gratus.ownerapp.util.PhotoInterface;
+import com.gratus.ownerapp.util.interfaces.PhotoInterface;
 
 import java.io.IOException;
 import java.util.ArrayList;

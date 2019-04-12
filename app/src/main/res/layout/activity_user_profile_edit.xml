@@ -26,7 +26,7 @@
                 android:layout_centerVertical="true"
                 android:paddingTop="90dp"
                 android:paddingRight="10dp"
-                android:src="@drawable/photo_icon" />
+                app:srcCompat="@drawable/photo_icon" />
     </RelativeLayout>
     <ScrollView
         android:layout_width="match_parent"

@@ -85,7 +85,6 @@ public class UserProfileNoEditActivity extends AppCompatActivity {
         if (savedInstanceState != null) {
             savedInstanceState.getSerializable("mod");
         }
-
     }
 
     private void setAdapter() {

@@ -1,6 +1,8 @@
 package com.gratus.ownerapp.model;
 
-public class UserProfileAdapterModel {
+import java.io.Serializable;
+
+public class UserProfileAdapterModel implements Serializable {
     private Integer layoutType;
     private String header;
     private String itemString;

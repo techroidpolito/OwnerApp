@@ -5,4 +5,14 @@
     <color name="colorAccent">#D81B60</color>
     <color name="top_bg">#9473B6</color>
     <color name="card_bg">#E0E0E0</color>
+    <color name="purple_600">#5E35B1</color>
+    <color name="indigo_600">#3949AB</color>
+    <color name="light_blue_600">#039BE5</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="purple_300">#9575CD</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="light_blue_300">#4FC3F7</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="red_800">#C62828</color>
 </resources>

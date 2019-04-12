@@ -1,4 +1,4 @@
-package com.gratus.ownerapp.Fragment;
+package com.gratus.ownerapp.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.gratus.ownerapp.R;
 import com.gratus.ownerapp.util.CameraInterface;
-import com.gratus.ownerapp.util.PhotoInterface;
+import com.gratus.ownerapp.util.interfaces.PhotoInterface;
 
 public class BottomSheetFragment extends BottomSheetDialogFragment {
     LinearLayout cameraLL,photoLL;

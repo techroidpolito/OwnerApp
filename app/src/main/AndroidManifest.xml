@@ -28,6 +28,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activity.ImagePickerActivity" />
+        <activity android:name=".activity.DashboardActivity"></activity>
+        <activity android:name=".activity.OrderActivity"></activity>
+        <activity android:name=".activity.MoreOrderActivity"></activity>
+        <activity android:name=".activity.OrderRejectionActivity"></activity>
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"

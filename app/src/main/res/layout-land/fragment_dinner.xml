@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dinnerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:id="@+id/exceptionRl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/orderImg"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/empty_order"
+            android:layout_centerInParent= "true"/>
+        <TextView
+            android:id="@+id/exceptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noorder"
+            android:layout_below="@+id/orderImg"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+    </RelativeLayout>
+</RelativeLayout>
