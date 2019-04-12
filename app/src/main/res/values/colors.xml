@@ -16,4 +16,6 @@
     <color name="green_800">#2E7D32</color>
     <color name="red_800">#C62828</color>
     <color name="black">#101010</color>
+    <color name="light_purple">#F6CCFF</color>
+    <color name="light_black">#909090</color>
 </resources>
