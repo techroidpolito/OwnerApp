@@ -12,6 +12,7 @@
         android:layout_marginBottom="48dp">
 
         <EditText
+            android:id="@+id/promoEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/onelineuserEditText"
@@ -80,6 +81,7 @@
         </RelativeLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/from"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,6 +112,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/to"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,6 +143,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/desEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/fivelineuserEditText"
@@ -151,16 +155,15 @@
 
     </LinearLayout>
 
-    <TextView
+    <Button
+        android:id="@+id/saveBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textMultiLine"
         android:text="@string/save_menu"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:background="@color/top_bg"
         android:gravity="center"
-        android:layout_below="@+id/ll_promo"
         android:layout_alignParentBottom="true"
         />
 

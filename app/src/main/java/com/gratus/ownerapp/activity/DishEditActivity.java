@@ -18,11 +18,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.gratus.ownerapp.Fragment.BottomSheetFragment;
+
 import com.gratus.ownerapp.R;
+import com.gratus.ownerapp.fragment.BottomSheetFragment;
 import com.gratus.ownerapp.model.Dish;
 import com.gratus.ownerapp.util.CameraInterface;
-import com.gratus.ownerapp.util.PhotoInterface;
+import com.gratus.ownerapp.util.interfaces.PhotoInterface;
+
 
 import java.io.IOException;
 

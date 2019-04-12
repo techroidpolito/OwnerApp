@@ -62,5 +62,13 @@ public class DashboardActivity extends AppCompatActivity implements OnItemClickL
             Intent i = new Intent(DashboardActivity.this, OrderActivity.class);
             startActivity(i);
         }
+        if(dashboardAdapterModel.get(position).getLayoutType()==MENU){
+            Intent i = new Intent(DashboardActivity.this, MenuOfferActivity.class);
+            startActivity(i);
+        }
+        if(dashboardAdapterModel.get(position).getLayoutType()==OFFER){
+            Intent i = new Intent(DashboardActivity.this, MenuOfferActivity.class);
+            startActivity(i);
+        }
     }
 }

@@ -1,6 +1,6 @@
 package com.gratus.ownerapp.adapter;
 
-import com.gratus.ownerapp.Fragment.PageFragment;
+import com.gratus.ownerapp.fragment.PageFragment;
 
 import java.util.ArrayList;
 
