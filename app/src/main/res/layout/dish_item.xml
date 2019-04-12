@@ -72,7 +72,7 @@
             android:layout_height="72dp"
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
-            android:gravity="right"
+            android:gravity="end"
             >
 
             <ImageButton

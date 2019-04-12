@@ -24,4 +24,10 @@
     <string name="food_name">Food name</string>
     <string name="plus"> + </string>
     <string name="minus"> - </string>
+    <string name="promo_code">Promo Code Name</string>
+    <string name="discount">Discount</string>
+    <string name="percentage"> % </string>
+    <string name="condition">Condition</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
 </resources>
