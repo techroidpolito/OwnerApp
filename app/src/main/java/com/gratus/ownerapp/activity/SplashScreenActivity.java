@@ -4,8 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-
-import com.gratus.ownerapp.R;
+import com.gratus.ownerapp.R;;
 
 import androidx.appcompat.app.AppCompatActivity;
 

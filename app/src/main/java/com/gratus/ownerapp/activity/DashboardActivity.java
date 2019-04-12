@@ -28,6 +28,7 @@ public class DashboardActivity extends AppCompatActivity implements OnItemClickL
     private ArrayList<DashboardAdapterModel> dashboardAdapterModel = new ArrayList<>();
     private RecyclerView.LayoutManager mLayoutManager;
     @SuppressLint("ResourceAsColor")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
